@@ -30,4 +30,21 @@
   #who .who-img {
     display: none;
   }
+
+  #clients .items img {
+    width: 80%;
+  }
+
+  #clients .items div:last-child {
+    display: none;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  #contact .map {
+    height: 200px;
+    border-top: 4px solid #333;
+  }
 }
